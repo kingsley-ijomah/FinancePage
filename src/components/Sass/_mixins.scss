@@ -1,0 +1,12 @@
+@import 'variables';
+
+@mixin button-cta($bgColor: $lavender-light, $padding: 13px 20px, $fontSize: 20px) {
+  font-family: "Rasa-Bold";
+  display: block;
+  background-color: $bgColor;
+  padding: $padding;
+  font-weight: bold;
+  font-size: $fontSize;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
