@@ -5,6 +5,7 @@ import Hero from '../components/Hero/Hero';
 import Payment from '../components/Payment/Payment';
 import Features from '../components/Features/Features';
 import VirtualCard from '../components/VirtualCard/VirtualCard';
+import Testimonials from '../components/Testimonials/Testimonials';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       </Container>
 
       <VirtualCard />
+      <Testimonials />
     </>
   );
 }
