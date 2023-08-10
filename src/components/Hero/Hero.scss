@@ -48,7 +48,7 @@
   &__numbers {
     display: flex;
     width: auto;
-    gap: 10px;
+    gap: 30px;
     margin-bottom: 30px;
 
     li {
@@ -58,13 +58,14 @@
 
       h2 {
         font-family: 'Rasa-Bold';
-        font-size: 35px;
+        font-size: 45px;
       }
 
       p {
         font-family: 'Inter-Regular';
         font-size: 12px;
         color: $dusty-lilac;
+        max-width: 60px;
       }
     }
   }
