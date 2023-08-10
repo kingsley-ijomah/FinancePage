@@ -7,6 +7,7 @@ import Features from '../components/Features/Features';
 import VirtualCard from '../components/VirtualCard/VirtualCard';
 import Testimonials from '../components/Testimonials/Testimonials';
 import TryApp from '../components/TryApp/TryApp';
+import Footer from '../components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <VirtualCard />
       <Testimonials />
       <TryApp />
+      <Footer />
     </>
   );
 }
